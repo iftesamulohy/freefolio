@@ -14,7 +14,7 @@ import os
 from pathlib import Path
 #import os
 from os import getenv
-import dj_database_url
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -29,8 +29,8 @@ SECRET_KEY = 'django-insecure-4&0x8d9!iwwx^p!61vrjd=-zey-xej$)jlh-%d$^w)!2_^_-0w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mahaportfolioo.herokuapp.com','127.0.0.1','www.akashdasdev.me','akashdasdev.me','demoportfoliomaha.herokuapp.com']
-CSRF_TRUSTED_ORIGINS=['https://*.akashdasdev.me']
+ALLOWED_HOSTS = ['*']
+
 
 
 # Application definition
